@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+    <SOAP-ENV:Body>
+        <registraOrden xmlns="http://h2h.integration.spei.enlacefi.lgec.com/">
+            <ordenPago xmlns="">
+                <claveRastreo xmlns="">{}</claveRastreo>
+                <conceptoPago xmlns="">{}</conceptoPago>
+                <cuentaBeneficiario xmlns="">{}</cuentaBeneficiario>
+                <cuentaOrdenante xmlns="">{}</cuentaOrdenante>
+                <emailBeneficiario xmlns="">{}</emailBeneficiario>
+                <empresa xmlns="">{}</empresa>
+                <firma xmlns="">{}</firma>
+                <institucionContraparte xmlns="">{}</institucionContraparte>
+                <institucionOperante xmlns="">{}</institucionOperante>
+                <monto xmlns="">{}</monto>
+                <nombreBeneficiario xmlns="">{}</nombreBeneficiario>
+                <referenciaNumerica xmlns="">{}</referenciaNumerica>
+                <rfcCurpBeneficiario xmlns="">{}</rfcCurpBeneficiario>
+                <tipoCuentaBeneficiario xmlns="">{}</tipoCuentaBeneficiario>
+                <tipoPago xmlns="">{}</tipoPago>
+            </ordenPago>
+        </registraOrden>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
